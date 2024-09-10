@@ -1,13 +1,13 @@
 the file contain 
 ISA Layers :
-1- STD_TYPES
-2- BIT_MATH
-2- Macl:
-DIO Drivar
+STD_TYPES,
+BIT_MATH
+2- MCAL:
+DIO Drivar,
 PORT Drivar
 3- HAL :
-SSD ==> 7 Segment Display Driver
-LED ==> LED Drivar
+SSD ==> 7 Segment Display Driver,
+LED ==> LED Drivar,
 SW  ==> switch Driver with debauncing code by 2 concept (callback function),(delay 200 ms)
 app :
 1- seven segment test code
